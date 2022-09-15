@@ -3,4 +3,3 @@ expo:
 	./get_local_ip.sh
 	docker-compose up -d
 	docker-compose exec expo sh --login
-  
