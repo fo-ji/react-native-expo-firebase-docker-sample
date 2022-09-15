@@ -9,8 +9,7 @@ services:
     environment:
       - REACT_NATIVE_PACKAGER_HOSTNAME=${LOCAL_IP_ADDR}
     ports:
-      - "19000:19000"
-      - "19001:19001"
-      - "19002:19002"
+      - '19000:19000'
+      - '19001:19001'
+      - '19002:19002'
     tty: true
-
